@@ -8,21 +8,21 @@
 
 This project leverages a **modular AI-driven customer support system** built on top of:
 
-- 🧭 **LangGraph**: For constructing dynamic, stateful agent workflows.
-- 🧠 **LangChain**: To orchestrate prompt chaining, memory, and RAG capabilities.
-- 📄 **RAG (Retrieval-Augmented Generation)**: Uses real insurance PDFs for contextually accurate answers.
-- 🔁 **LLM design**: local models served via **LM Studio**.
-- 🕸️ **Smart Routing**: Directs each query to its relevant domain-specific agent.
+-  **LangGraph**: For constructing dynamic, stateful agent workflows.
+-  **LangChain**: To orchestrate prompt chaining, memory, and RAG capabilities.
+-  **RAG (Retrieval-Augmented Generation)**: Uses real insurance PDFs for contextually accurate answers.
+-  **LLM design**: local models served via **LM Studio**.
+-  **Smart Routing**: Directs each query to its relevant domain-specific agent.
 
 ---
 
-## 🧩 Features
+##  Features
 
-### 🔍 Intelligent Categorization
+###  Intelligent Categorization
 Classifies customer queries into fine-grained insurance subcategories:
 
 
-### 🤖 Agent-Based Workflow
+### Agent-Based Workflow
 Based on the query's **category** and **sentiment**, the system routes it to:
 
 - `claims_agent`
@@ -33,15 +33,15 @@ Based on the query's **category** and **sentiment**, the system routes it to:
 - `handle_general` (fallback)
 - `escalate` (if sentiment is negative)
 
-### 📊 Sentiment-Aware Escalation
+### Sentiment-Aware Escalation
 Escalates sensitive or dissatisfied user queries to human support.
 
-### 🔗 RAG-Powered Accuracy
+### RAG-Powered Accuracy
 All domain answers are **backed by your company’s policy documents** using FAISS vector search.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component            | Tool / Library                            |
 |---------------------|--------------------------------------------|
@@ -54,5 +54,5 @@ All domain answers are **backed by your company’s policy documents** using FAI
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
