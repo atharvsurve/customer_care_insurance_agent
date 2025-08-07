@@ -54,5 +54,3 @@ All domain answers are **backed by your company’s policy documents** using FAI
 
 ---
 
-## Folder Structure
-
